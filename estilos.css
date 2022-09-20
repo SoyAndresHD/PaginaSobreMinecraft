@@ -129,6 +129,7 @@ div h3{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
+    margin: auto;
 }
 
 .pie-pagina .grupo-1 .box p{
@@ -175,5 +176,34 @@ div h3{
 
 .pie-pagina{
     text-shadow: 0 50 50px rgba(0, 0, 0, 0.8);
+    display: block;
 }
 
+#parrafo6{
+    margin:auto;
+}
+
+.container{
+    margin: auto;
+}
+
+body{
+    margin: auto;
+}
+
+.grupo-1 {
+    text-align: center;
+}
+
+figure{
+    margin: auto;
+}
+
+.red-social{
+    margin: auto;
+    display: block;
+}
+
+.pie-pagina{
+    display: block;
+}
