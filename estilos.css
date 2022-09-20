@@ -45,6 +45,8 @@ h2{
     background-image: url(/img/fondo3.jpg);
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 header{
@@ -52,6 +54,9 @@ header{
     background-image: linear-gradient(to right top, #202020, #1b1b1b, #171717, #121212, #0b0b0b, #070707, #040404, #000000, #000000, #000000, #000000, #000000);
     padding: 1px;
     border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
 }
 
 .imagenminecraft{
@@ -90,6 +95,7 @@ header{
 .modos img{
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
+    margin: auto;
 }
 
 div h3{
@@ -101,13 +107,14 @@ div h3{
 .pie-pagina{
     width: 100%;
     background-color: green;
+    display: block;
 }
 
 .pie-pagina .grupo-1{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    display: grid;
+    display: block;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
@@ -116,7 +123,7 @@ div h3{
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -200,10 +207,42 @@ figure{
 }
 
 .red-social{
+    display: block;
+}
+
+.pie-pagina .red-social .box .grupo-1 .grupo-2{
+    display: block;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+    margin: auto;
+}
+
+footer{
     margin: auto;
     display: block;
 }
 
-.pie-pagina{
+iframe{
+    margin: auto;
     display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+.modos img{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header img{
+    max-width: 100%;
+    max-height: 100%;
 }
