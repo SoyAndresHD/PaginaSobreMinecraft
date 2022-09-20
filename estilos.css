@@ -71,6 +71,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+
 }
 
 .primerparrafo p{
@@ -208,6 +209,9 @@ figure{
 
 .red-social{
     display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 5%;
 }
 
 .pie-pagina .red-social .box .grupo-1 .grupo-2{
@@ -245,4 +249,5 @@ iframe{
 header img{
     max-width: 100%;
     max-height: 100%;
+    size: 30%;
 }
