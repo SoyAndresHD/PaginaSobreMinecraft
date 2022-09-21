@@ -17,7 +17,9 @@ a{
 }
 
 a:hover{
-    color: aqua;
+    color: green;
+    transition: all 300ms ease;
+    text-decoration: none;
 }
 
 img{
@@ -257,5 +259,14 @@ header img{
 }
 
 .parrafo2{
+    margin: auto;
+}
+
+#info a:hover{
+    color: green;
+    margin: 6%
+}
+
+.primerparrafo{
     margin: auto;
 }
