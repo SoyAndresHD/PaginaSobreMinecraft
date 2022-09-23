@@ -16,7 +16,7 @@ a{
     color: black;
 }
 
-a:hover{
+.red-social a:hover{
     color: green;
     transition: all 300ms ease;
     text-decoration: none;
@@ -269,4 +269,20 @@ header img{
 
 .primerparrafo{
     margin: auto;
+}
+
+#Extremos{
+    margin: 3%;
+}
+
+#Aventura{
+    margin: 3%;
+}
+
+#Creativo{
+    margin: 3%;
+}
+
+.parrafo2{
+    margin: 3%;
 }
