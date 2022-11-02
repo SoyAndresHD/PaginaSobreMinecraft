@@ -288,3 +288,8 @@ a:hover{
     margin: 3%;
 }
 
+#info a:hover{
+    color: green;
+    transition: all 300ms ease;
+    
+}
