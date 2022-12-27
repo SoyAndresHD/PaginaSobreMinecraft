@@ -262,11 +262,12 @@ header img{
     margin: auto;
 }
 
+
 a:hover{
     color: green;
     transition: all 300ms ease;
-
 }
+
 
 .primerparrafo{
     margin: auto;
